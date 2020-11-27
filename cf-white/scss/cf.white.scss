@@ -1,0 +1,219 @@
+/*
+	cubicFUSION THEME for klaro 0.1
+	based on klaro v0.7.9 (https://github.com/kiprotect/klaro/)
+
+	Alex @ portalZINE.de	
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+$logo			: 1;
+$logo-width		: 80px;
+$logo-height	: 80px;
+$logo-url		: "https://dummyimage.com/80x80/ff2626/fff.png";
+
+$bg-white 		: #fff;
+$bg-green 		: green;
+$bg-red 		: red;
+$bg-orange 		: orange;
+$bg-blue		: blue;
+
+$header-dark 	: #000;
+$text-dark 		: #000;
+$link-dark 		: #000;
+
+$switch-level-on 		: green;
+$switch-level-off 		: red;
+$switch-level-required 	: orange;
+
+	.klaro {
+		
+		*{
+			font-family: 'Noto Sans', sans-serif!important;
+		}
+	
+	.cm-btn{
+		border-radius: 0.1em!important;
+		padding: 6px 10px!important;
+		text-transform: uppercase;
+		font-weight: 600;
+		transition: all 0.5s linear;
+		opacity: 0.7;
+		&:hover{
+			opacity: 1;
+		}
+	}
+		
+	.cookie-notice:not(.cookie-modal-notice){
+		background: $bg-white;	
+		border-radius: 0;
+		
+		.cn-body{
+		
+			p{
+				color: $text-dark;
+			}
+			strong{
+				color: $text-dark;
+				font-weight: 600;
+			}
+			.cn-decline{
+				background: $bg-red;
+			}
+			.cm-btn-success{
+				background: $bg-green;
+			}
+			.cn-ok{
+				a{
+					color: $text-dark;
+					text-transform : uppercase;
+					
+					transition: all 0.5s linear;
+					
+					opacity: 0.7;
+					&:hover{
+						opacity: 1;
+					}
+				}
+			}
+			
+		}
+	}
+	
+	.cookie-modal {
+		
+		.cm-modal.cm-klaro {
+			background: $bg-white;	
+			border-radius: 0px;
+			padding: 1.5em;
+		}
+		
+		.hide {
+			cursor: pointer;
+			svg {
+    			stroke: red!important;
+			}
+		}
+		
+		.cm-header{
+			  @if $logo {
+              	&:before{
+					content: "";
+					width: $logo-width;
+					height: $logo-height;
+					float: left;
+					background-image: url($logo-url);
+					background-size: contain;
+					background-position: center;
+					margin-right: 1.5em;
+					margin-bottom: 2.5em;
+				}
+            } 
+			
+			
+			border-bottom: 1px solid #eee!important;
+			
+			background: #F2F2F2;
+			margin: 2em 0;
+			
+			.title{
+				color: $header-dark;
+				text-transform: uppercase;
+				u{
+					text-decoration: none;
+				}
+			}
+			
+			p{
+				color: $text-dark;
+				
+				a{
+					color: $text-dark;
+					text-decoration: underline;
+				}
+			}
+		}
+		
+		.cm-body{
+			.cm-purpose{
+				label{
+					color: $text-dark;
+				}
+				.cm-list-description{
+					color: $text-dark;
+				}
+				
+				.cm-services{
+					a{
+						color: $link-dark;
+					}
+					
+					.cm-service{
+						.purposes{
+							color:$text-dark!important;
+						}
+					}
+					
+				}
+				.cm-list-input.half-checked:checked+.cm-list-label .slider{
+					background: $switch-level-off ;
+				}
+				
+				.cm-list-input.only-required+.cm-list-label .slider{
+					background: $switch-level-required ;
+					
+				}
+				
+				.cm-list-input.required:checked+.cm-list-label .slider{
+					background: $switch-level-on;
+				}
+				
+				.cm-list-input:checked+.cm-list-label .slider{
+					background: $switch-level-on;
+				}
+				
+				.cm-switch{
+					.slider{
+						box-shadow:none;
+						
+						&.active{
+							
+						}
+					}
+				}
+				
+				&.cm-toggle-all{
+					border-top: 1px solid #eee!important;
+				}
+			}
+			
+			
+		}
+		
+		.cm-footer{
+			
+			margin-top: 1.5em;
+			.cn-btn{
+				
+					transition: all 0.5s linear;
+				opacity: 0.7;
+					&:hover{
+						opacity: 1;
+					}
+			}
+			    border-top: 1px solid #eee!important;
+			.cn-decline{
+				background: $bg-red;
+			}
+			
+			.cm-btn-accept{
+				background: $bg-orange;
+			}
+			
+			.cm-btn-accept-all{
+				background: $bg-green;
+			}
+		}
+		
+	}
+}
