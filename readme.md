@@ -1,12 +1,15 @@
 # cubicFUSION Themes for !Klaro
 > Themes for Klaro! - A Simple Consent Manager
 > [https://github.com/kiprotect/klaro][1]
----- 
-## Current Themes
-### cf-white
-1. 0.1   
-	Simple clean white theme (Work in progress)
 
+## Current Themes
+### cf-white 0.1
+1. Simple clean white theme (still work in progress)
+2. SCSS variables for quick tweaks
+3. Optional logo
+
+
+---- 
 ## Additional Info
 **Idea Behind / Philosophy:**  
 
