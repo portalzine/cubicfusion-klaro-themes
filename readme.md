@@ -8,6 +8,8 @@
 2. SCSS variables for quick tweaks
 3. Optional logo
 
+![][image-1]![][image-2]
+
 
 ---- 
 ## Additional Info
@@ -23,3 +25,6 @@ I am still doing a big cleanup of my toolset and will see what I can actually sh
 
 [1]:	https://github.com/kiprotect/klaro
 [2]:	https://portalzine.de/
+
+[image-1]:	https://github.com/portalzine/cubicfusion-klaro-themes/blob/main/cf-white/preview/cf-white-1.png
+[image-2]:	https://github.com/portalzine/cubicfusion-klaro-themes/blob/main/cf-white/preview/cf-white-2.png
