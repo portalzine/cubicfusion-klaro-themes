@@ -4,8 +4,8 @@
 ---- 
 ## Current Themes
 ### cf-white
-0.1   
-Simple clean white theme (Work in progress)
+1. 0.1   
+	Simple clean white theme (Work in progress)
 
 ## Additional Info
 **Idea Behind / Philosophy:**  
