@@ -26,6 +26,11 @@
 The SCSS file holds the configuration,  use to compile your own CSS.
  I am just providing the CSS file as a reference.
 
+## How to compile SCSS to CSS
+[Online SCSS Compiler][2] /[ SassMeister][3]
+[CodeKit for Mac][4]
+[ScoutApp (Cross Plattform)][5]
+
 ---- 
 ## Additional Info
 **Idea Behind / Philosophy:**  
@@ -34,12 +39,16 @@ The SCSS file holds the configuration,  use to compile your own CSS.
 
 I am still doing a big cleanup of my toolset and will see what I can actually share or reuse. Some of these might be useful, inspiration or just an archive of broken ideas  ;) 
   
-[Alex @ portalZINE NMN - Development meets Creativity][2]
+[Alex @ portalZINE NMN - Development meets Creativity][6]
 
 **ENJOY!**
 
 [1]:	https://github.com/kiprotect/klaro
-[2]:	https://portalzine.de/
+[2]:	http://beautifytools.com/scss-compiler.php
+[3]:	https://www.sassmeister.com/
+[4]:	https://codekitapp.com/
+[5]:	https://scout-app.io/
+[6]:	https://portalzine.de/
 
 [image-1]:	https://github.com/portalzine/cubicfusion-klaro-themes/blob/main/cf-white/preview/cf-white-1.png
 [image-2]:	https://github.com/portalzine/cubicfusion-klaro-themes/blob/main/cf-white/preview/cf-white-2.png
