@@ -5,7 +5,24 @@
 	Alex @ portalZINE.de	
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+/* CONFIG START */
+
+
+$overwrite-fonts	: 1;
+@if $overwrite-fonts == 1 {
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+}
+
+$animation-active	: 1;
+$animation-name		: fadeIn;
+$animation-duration	: 1.0s;
+
+@if $animation-active == 1 {
+	@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+}
+
+$modal-border-top : 1;
+$modal-border-top-color: red;
 
 $logo			: 1;
 $logo-width		: 80px;
@@ -26,13 +43,26 @@ $switch-level-on 		: green;
 $switch-level-off 		: red;
 $switch-level-required 	: orange;
 
-	.klaro {
-		
-		*{
-			font-family: 'Noto Sans', sans-serif!important;
-		}
+$toggle-font-awesome 		: 0;
+$toggle-font-awesome-type	: "Font Awesome 5 Pro"; // "Font Awesome 5 Free"
+$toggle-font-awesome-icon	: '\f2f7';
+
+$button-font-awesome			: 1;
+$button-font-awesome-all		: '\f2f7';
+$button-font-awesome-selected	: '\f3ed';
+$button-font-awesome-decline	: '\f132';
+/* CONFIG END */
+
+.klaro {
+	
+	@if $overwrite-fonts == 1 {
+    	*{
+        	font-family: 'Noto Sans', sans-serif!important;
+    	}
+	}
 	
 	.cm-btn{
+		
 		border-radius: 0.1em!important;
 		padding: 6px 10px!important;
 		text-transform: uppercase;
@@ -41,15 +71,20 @@ $switch-level-required 	: orange;
 		opacity: 0.7;
 		&:hover{
 			opacity: 1;
+			animation: pulse; 
+  			animation-duration: 1.0s; 
 		}
 	}
 		
 	.cookie-notice:not(.cookie-modal-notice){
 		background: $bg-white;	
 		border-radius: 0;
-		
+	
 		.cn-body{
-		
+			
+			@if $modal-border-top == 1 {
+				border-top: 4px solid $modal-border-top-color!important;
+			}
 			p{
 				color: $text-dark;
 			}
@@ -59,9 +94,29 @@ $switch-level-required 	: orange;
 			}
 			.cn-decline{
 				background: $bg-red;
+				@if $button-font-awesome == 1 {
+				&::before{
+					font-family: $toggle-font-awesome-type!important;
+					content: $button-font-awesome-decline;				
+    				text-align: center;
+    				color:white;					
+					
+					margin-right:0.3em;
+				}
+				}
 			}
 			.cm-btn-success{
 				background: $bg-green;
+				@if $button-font-awesome == 1 {
+				&::before{
+					font-family: $toggle-font-awesome-type!important;
+					content: $button-font-awesome-all;				
+    				text-align: center;
+    				color:white;					
+					
+					margin-right:0.3em;
+				}
+				}
 			}
 			.cn-ok{
 				a{
@@ -82,7 +137,15 @@ $switch-level-required 	: orange;
 	
 	.cookie-modal {
 		
+		
 		.cm-modal.cm-klaro {
+			@if $animation-active == 1 {
+				animation: $animation-name; 
+  				animation-duration: $animation-duration ;
+			}
+			@if $modal-border-top == 1 {
+			border-top: 4px solid $modal-border-top-color!important;
+			}
 			background: $bg-white;	
 			border-radius: 0px;
 			padding: 1.5em;
@@ -96,7 +159,7 @@ $switch-level-required 	: orange;
 		}
 		
 		.cm-header{
-			  @if $logo {
+			  @if $logo == 1 {
               	&:before{
 					content: "";
 					width: $logo-width;
@@ -155,6 +218,15 @@ $switch-level-required 	: orange;
 					}
 					
 				}
+				  @if $toggle-font-awesome == 1 {
+					.cm-list-label .slider::before{
+						font-family: $toggle-font-awesome-type!important;
+						content: $toggle-font-awesome-icon;				
+    					text-align: center;
+    					color:white;					
+						background: transparent;
+					}
+				}
 				.cm-list-input.half-checked:checked+.cm-list-label .slider{
 					background: $switch-level-off ;
 				}
@@ -193,25 +265,59 @@ $switch-level-required 	: orange;
 		.cm-footer{
 			
 			margin-top: 1.5em;
+			
 			.cn-btn{
 				
-					transition: all 0.5s linear;
+				transition: all 0.5s linear;
 				opacity: 0.7;
-					&:hover{
-						opacity: 1;
-					}
+				
+				&:hover{
+					opacity: 1;
+				}
 			}
-			    border-top: 1px solid #eee!important;
+			
+			border-top: 1px solid #eee!important;
+			
 			.cn-decline{
 				background: $bg-red;
+				@if $button-font-awesome == 1 {
+				&::before{
+					font-family: $toggle-font-awesome-type!important;
+					content: $button-font-awesome-decline;				
+    				text-align: center;
+    				color:white;					
+					
+					margin-right:0.3em;
+				}
+				}
 			}
 			
 			.cm-btn-accept{
 				background: $bg-orange;
+				@if $button-font-awesome == 1 {
+				&::before{
+					font-family: $toggle-font-awesome-type!important;
+					content: $button-font-awesome-selected;				
+    				text-align: center;
+    				color:white;					
+					
+					margin-right:0.3em;
+				}
+				}
 			}
 			
 			.cm-btn-accept-all{
 				background: $bg-green;
+				@if $button-font-awesome == 1 {
+				&::before{
+					font-family: $toggle-font-awesome-type!important;
+					content: $button-font-awesome-all;				
+    				text-align: center;
+    				color:white;					
+					
+					margin-right:0.3em;
+				}
+				}
 			}
 		}
 		
