@@ -3,10 +3,12 @@
 > [https://github.com/kiprotect/klaro][1]
 
 ## Current Themes
-### cf-white 0.1
+### cf-white 0.2
 1. Simple clean white theme (still work in progress)
 2. SCSS variables for quick tweaks
 3. Optional logo
+4. Optional animation (animated.css)
+5. Optional Font Awesome integration for buttons & toggles
 
 ![][image-1]![][image-2]
 
