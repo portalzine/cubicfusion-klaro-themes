@@ -31,10 +31,10 @@ $logo-height	: 80px;
 $logo-url		: "https://dummyimage.com/80x80/000000/fff.png";
 
 $bg-white 		: #fff;
-$bg-green 		: white;
-$bg-green-text 	: black;
-$bg-red 		: black;
-$bg-red-text	: white;
+$bg-green 		: black;
+$bg-green-text 	: white;
+$bg-red 		: white;
+$bg-red-text	: black;
 $bg-orange 		: gray;
 $bg-orange-text : black;
 $bg-blue		: blue;
@@ -106,7 +106,7 @@ $button-font-awesome-decline	: '\f132';
 					font-family: $toggle-font-awesome-type!important;
 					content: $button-font-awesome-decline;				
     				text-align: center;
-    				color:white;					
+    				color:black;					
 					
 					margin-right:0.3em;
 				}
@@ -294,7 +294,7 @@ $button-font-awesome-decline	: '\f132';
 					font-family: $toggle-font-awesome-type!important;
 					content: $button-font-awesome-decline;				
     				text-align: center;
-    				color:white;					
+    				color:black;					
 					
 					margin-right:0.3em;
 				}

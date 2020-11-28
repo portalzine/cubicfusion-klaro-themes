@@ -37,22 +37,22 @@
       color: #000;
       font-weight: 600; }
     .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline {
-      background: black;
-      color: white; }
+      background: white;
+      color: black; }
       .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline::before {
         font-family: "Font Awesome 5 Pro" !important;
         content: "";
         text-align: center;
-        color: white;
+        color: black;
         margin-right: 0.3em; }
     .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success {
-      background: white;
-      color: black; }
+      background: black;
+      color: white; }
       .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success::before {
         font-family: "Font Awesome 5 Pro" !important;
         content: "";
         text-align: center;
-        color: black;
+        color: white;
         margin-right: 0.3em; }
     .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok a {
       color: #000;
@@ -139,13 +139,13 @@
     .klaro .cookie-modal .cm-footer .cn-btn:hover {
       opacity: 1; }
   .klaro .cookie-modal .cm-footer .cn-decline {
-    background: black;
-    color: white; }
+    background: white;
+    color: black; }
     .klaro .cookie-modal .cm-footer .cn-decline::before {
       font-family: "Font Awesome 5 Pro" !important;
       content: "";
       text-align: center;
-      color: white;
+      color: black;
       margin-right: 0.3em; }
   .klaro .cookie-modal .cm-footer .cm-btn-accept {
     background: gray;
@@ -157,11 +157,11 @@
       color: black;
       margin-right: 0.3em; }
   .klaro .cookie-modal .cm-footer .cm-btn-accept-all {
-    background: white;
-    color: black; }
+    background: black;
+    color: white; }
     .klaro .cookie-modal .cm-footer .cm-btn-accept-all::before {
       font-family: "Font Awesome 5 Pro" !important;
       content: "";
       text-align: center;
-      color: black;
+      color: white;
       margin-right: 0.3em; }
