@@ -45,13 +45,13 @@ $switch-level-off 		: red;
 $switch-level-required 	: orange;
 
 $toggle-font-awesome 		: 0;
-$toggle-font-awesome-type	: "Font Awesome 5 Pro"; // "Font Awesome 5 Free"
-$toggle-font-awesome-icon	: '\f2f7';
+$toggle-font-awesome-type	: "Font Awesome 5 Free"; //  "Font Awesome 5 Pro";
+$toggle-font-awesome-icon	: '\f3ed'; //'\f2f7';
 
 $button-font-awesome			: 1;
-$button-font-awesome-all		: '\f2f7';
-$button-font-awesome-selected	: '\f3ed';
-$button-font-awesome-decline	: '\f132';
+$button-font-awesome-all		: '\f3ed'; //'\f2f7';
+$button-font-awesome-selected	: '\f3ed'; //'\f3ed';
+$button-font-awesome-decline	: '\f3ed'; //'\f132';
 /* CONFIG END */
 
 .klaro {
@@ -290,6 +290,8 @@ $button-font-awesome-decline	: '\f132';
 					
 					margin-right:0.3em;
 				}
+					
+					
 				}
 			}
 			

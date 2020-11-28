@@ -38,16 +38,16 @@
     .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline {
       background: red; }
       .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline::before {
-        font-family: "Font Awesome 5 Pro" !important;
-        content: "";
+        font-family: "Font Awesome 5 Free" !important;
+        content: "";
         text-align: center;
         color: white;
         margin-right: 0.3em; }
     .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success {
       background: green; }
       .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success::before {
-        font-family: "Font Awesome 5 Pro" !important;
-        content: "";
+        font-family: "Font Awesome 5 Free" !important;
+        content: "";
         text-align: center;
         color: white;
         margin-right: 0.3em; }
@@ -138,15 +138,15 @@
   .klaro .cookie-modal .cm-footer .cn-decline {
     background: red; }
     .klaro .cookie-modal .cm-footer .cn-decline::before {
-      font-family: "Font Awesome 5 Pro" !important;
-      content: "";
+      font-family: "Font Awesome 5 Free" !important;
+      content: "";
       text-align: center;
       color: white;
       margin-right: 0.3em; }
   .klaro .cookie-modal .cm-footer .cm-btn-accept {
     background: orange; }
     .klaro .cookie-modal .cm-footer .cm-btn-accept::before {
-      font-family: "Font Awesome 5 Pro" !important;
+      font-family: "Font Awesome 5 Free" !important;
       content: "";
       text-align: center;
       color: white;
@@ -154,8 +154,8 @@
   .klaro .cookie-modal .cm-footer .cm-btn-accept-all {
     background: green; }
     .klaro .cookie-modal .cm-footer .cm-btn-accept-all::before {
-      font-family: "Font Awesome 5 Pro" !important;
-      content: "";
+      font-family: "Font Awesome 5 Free" !important;
+      content: "";
       text-align: center;
       color: white;
       margin-right: 0.3em; }

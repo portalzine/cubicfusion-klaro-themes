@@ -10,7 +10,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 /* CONFIG END */
-.klaro * {
+.klaro *:not(.fa):not(.fal) {
   font-family: "Noto Sans", sans-serif !important; }
 
 .klaro .cm-btn {
@@ -40,8 +40,8 @@
       background: white;
       color: black; }
       .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline::before {
-        font-family: "Font Awesome 5 Pro" !important;
-        content: "";
+        font-family: "Font Awesome 5 Free" !important;
+        content: "";
         text-align: center;
         color: black;
         margin-right: 0.3em; }
@@ -49,8 +49,8 @@
       background: black;
       color: white; }
       .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success::before {
-        font-family: "Font Awesome 5 Pro" !important;
-        content: "";
+        font-family: "Font Awesome 5 Free" !important;
+        content: "";
         text-align: center;
         color: white;
         margin-right: 0.3em; }
@@ -142,8 +142,8 @@
     background: white;
     color: black; }
     .klaro .cookie-modal .cm-footer .cn-decline::before {
-      font-family: "Font Awesome 5 Pro" !important;
-      content: "";
+      font-family: "Font Awesome 5 Free" !important;
+      content: "";
       text-align: center;
       color: black;
       margin-right: 0.3em; }
@@ -151,7 +151,7 @@
     background: gray;
     color: black; }
     .klaro .cookie-modal .cm-footer .cm-btn-accept::before {
-      font-family: "Font Awesome 5 Pro" !important;
+      font-family: "Font Awesome 5 Free" !important;
       content: "";
       text-align: center;
       color: black;
@@ -160,8 +160,8 @@
     background: black;
     color: white; }
     .klaro .cookie-modal .cm-footer .cm-btn-accept-all::before {
-      font-family: "Font Awesome 5 Pro" !important;
-      content: "";
+      font-family: "Font Awesome 5 Free" !important;
+      content: "";
       text-align: center;
       color: white;
       margin-right: 0.3em; }
