@@ -23,7 +23,7 @@
 ![][image-3]![][image-4]
 
 ## Usage
-The SCSS file holds the configuration,  use to compile your own CSS.
+The SCSS file holds the configuration,  use it to compile your own CSS.
  I am just providing the CSS file as a reference.
 
 ## How to compile SCSS to CSS
