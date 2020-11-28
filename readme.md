@@ -27,9 +27,9 @@ The SCSS file holds the configuration,  use to compile your own CSS.
  I am just providing the CSS file as a reference.
 
 ## How to compile SCSS to CSS
-[Online SCSS Compiler][2] /[ SassMeister][3]
-[CodeKit for Mac][4]
-[ScoutApp (Cross Plattform)][5]
+- [Online SCSS Compiler][2] /[ SassMeister][3]
+- [CodeKit for Mac][4]
+- [ScoutApp (Cross Plattform)][5]
 
 ---- 
 ## Additional Info
