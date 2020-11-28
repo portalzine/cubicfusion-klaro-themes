@@ -13,6 +13,8 @@
 
 ![][image-1]![][image-2]
 
+## Usage
+The SCSS file holds the configuration. This should be used to compile your own  CSS file. I am just providing the CSS file as a reference.
 
 ---- 
 ## Additional Info
