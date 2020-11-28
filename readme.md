@@ -1,8 +1,7 @@
 # cubicFUSION Themes for !Klaro
 > Themes for Klaro! - A Simple Consent Manager
 > [https://github.com/kiprotect/klaro][1]
-> ---- Dislaimer:_ !Klaro is a product of KIPROTECT. I am not affiliated with them in any way and provide these themes as they are.
-
+> _Dislaimer:_ !Klaro is a product of KIPROTECT. I am not affiliated with them in any way and provide these themes as they are.
 
 ## Current Themes
 ### White - cf-white 0.2 (for !klaro \>=0.79)
