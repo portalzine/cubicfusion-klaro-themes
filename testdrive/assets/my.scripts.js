@@ -10,8 +10,8 @@ document.addEventListener('consentWindowOpen', function (e) {
 	
 document.addEventListener("DOMContentLoaded", function(e) {        
 
-        var cm_target 		= document.getElementById( "klaro" );
-        var cm_visible 	= false;	
+        var cm_target 	= document.getElementById( "klaro" ),
+			cm_visible 	= false;	
 
         var observer 	= new MutationObserver(function(mutationRecords) {
 

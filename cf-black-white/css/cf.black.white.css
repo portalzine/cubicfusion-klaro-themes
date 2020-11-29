@@ -149,12 +149,13 @@
       margin-right: 0.3em; }
   .klaro .cookie-modal .cm-footer .cm-btn-accept {
     background: gray;
-    color: black; }
+    border-color: gray !important;
+    color: white; }
     .klaro .cookie-modal .cm-footer .cm-btn-accept::before {
       font-family: "Font Awesome 5 Free" !important;
       content: "";
       text-align: center;
-      color: black;
+      color: white;
       margin-right: 0.3em; }
   .klaro .cookie-modal .cm-footer .cm-btn-accept-all {
     background: black;

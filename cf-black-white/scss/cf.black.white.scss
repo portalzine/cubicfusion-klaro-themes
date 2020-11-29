@@ -36,7 +36,7 @@ $bg-green-text 	: white;
 $bg-red 		: white;
 $bg-red-text	: black;
 $bg-orange 		: gray;
-$bg-orange-text : black;
+$bg-orange-text : white;
 $bg-blue		: blue;
 $bg-blue-text	: blue;
 
@@ -306,6 +306,7 @@ $button-font-awesome-decline	: '\f3ed'; //'\f132';
 			
 			.cm-btn-accept{
 				background: $bg-orange;
+				border-color: $bg-orange!important;
 				color: $bg-orange-text;
 				@if $button-font-awesome == 1 {
 				&::before{
