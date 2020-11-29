@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-	cubicFUSION THEME for klaro 0.2
+	cubicFUSION THEME for klaro 0.3
 	based on klaro v0.7.9 (https://github.com/kiprotect/klaro/)
 	White
 
@@ -39,7 +39,7 @@
       background: red; }
       .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline::before {
         font-family: "Font Awesome 5 Free" !important;
-        content: "";
+        content: "";
         text-align: center;
         color: white;
         margin-right: 0.3em; }
@@ -47,7 +47,7 @@
       background: green; }
       .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success::before {
         font-family: "Font Awesome 5 Free" !important;
-        content: "";
+        content: "";
         text-align: center;
         color: white;
         margin-right: 0.3em; }
@@ -139,7 +139,7 @@
     background: red; }
     .klaro .cookie-modal .cm-footer .cn-decline::before {
       font-family: "Font Awesome 5 Free" !important;
-      content: "";
+      content: "";
       text-align: center;
       color: white;
       margin-right: 0.3em; }
@@ -147,7 +147,7 @@
     background: orange; }
     .klaro .cookie-modal .cm-footer .cm-btn-accept::before {
       font-family: "Font Awesome 5 Free" !important;
-      content: "";
+      content: "";
       text-align: center;
       color: white;
       margin-right: 0.3em; }
@@ -155,7 +155,7 @@
     background: green; }
     .klaro .cookie-modal .cm-footer .cm-btn-accept-all::before {
       font-family: "Font Awesome 5 Free" !important;
-      content: "";
+      content: "";
       text-align: center;
       color: white;
       margin-right: 0.3em; }

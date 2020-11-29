@@ -5,7 +5,7 @@
 > _Dislaimer:_ !Klaro is a product of KIPROTECT. I am not affiliated with them in any way and provide these themes as they are.
 
 ## Current Themes
-### White - cf-white 0.2 (for !klaro \>=0.79)
+### White - cf-white 0.3 (for !klaro \>=0.79)
 1. Simple clean white theme (still work in progress)
 2. SCSS variables for quick tweaks
 3. Optional logo
@@ -14,7 +14,7 @@
 
 ![][image-1]![][image-2]
 
-### Black & White - cf-black-white 0.1 (for !klaro \>=0.79)
+### Black & White - cf-black-white 0.2 (for !klaro \>=0.79)
 1. Simple clean black & white theme (still work in progress)
 2. SCSS variables for quick tweaks
 3. Optional logo
@@ -26,6 +26,7 @@
 ## Usage
 The SCSS file holds the configuration,  use it to compile your own CSS.
  I am just providing the CSS file as a reference.
+You can also checkout a test integration in the testdrive folder, which allows to switch between themes.
 
 ## How to compile SCSS to CSS
 - [Online SCSS Compiler][2] /[ SassMeister][3]
