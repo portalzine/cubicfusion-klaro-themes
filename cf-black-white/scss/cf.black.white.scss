@@ -6,10 +6,19 @@
 	Alex @ portalZINE.de	
 */
 
+/* FUNCTIONS */
+
+
+// @source - [@Stephn-R](https://github.com/sass/sass/issues/1395#issuecomment-57483844)
+// @description converts 1 or more characters into a unicode
+// @markup {scss}
+// unicode("e655"); // "\e655"
+@function unicode($str){
+    @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+}
+
 /* CONFIG START */
-
-
-$overwrite-fonts	: 1;
+$overwrite-fonts	: 0;
 @if $overwrite-fonts == 1 {
 	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 }
@@ -50,12 +59,12 @@ $switch-level-required 	: gray;
 
 $toggle-font-awesome 		: 0;
 $toggle-font-awesome-type	: "Font Awesome 5 Free"; //  "Font Awesome 5 Pro";
-$toggle-font-awesome-icon	: '\f3ed'; //'\f2f7';
+$toggle-font-awesome-icon	: unicode("f3ed"); //'\f2f7';
 
 $button-font-awesome			: 1;
-$button-font-awesome-all		: '\f3ed'; //'\f2f7';
-$button-font-awesome-selected	: '\f3ed'; //'\f3ed';
-$button-font-awesome-decline	: '\f3ed'; //'\f132';
+$button-font-awesome-all		: unicode("f3ed"); //'\f2f7';
+$button-font-awesome-selected	: unicode("f3ed"); //'\f3ed';
+$button-font-awesome-decline	: unicode("f3ed"); //'\f132';
 
 /* CONFIG END */
 
@@ -338,3 +347,5 @@ $button-font-awesome-decline	: '\f3ed'; //'\f132';
 		
 	}
 }
+
+

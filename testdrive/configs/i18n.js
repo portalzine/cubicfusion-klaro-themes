@@ -15,7 +15,10 @@ var klaroI18nConfig = {
         },
         de: {
             privacyPolicyUrl: '/#datenschutz',
-            consentModal: {
+            consentNotice:{
+				description: 'Guten Tag! Könnten wir bitte einige zusätzliche Dienste für {purposes} aktivieren? Sie können Ihre Zustimmung später jederzeit ändern oder zurückziehen.'
+			},
+			consentModal: {
                 title: 'Dies ist der Titel des Zustimmungs-Dialogs',
                 description:
                     'Dies ist die Beschreibung des Zustimmungs-Dialogs.',

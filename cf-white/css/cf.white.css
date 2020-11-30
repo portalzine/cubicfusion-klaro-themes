@@ -1,161 +1,186 @@
-@charset "UTF-8";
 /*
-	cubicFUSION THEME for klaro 0.3
+	cubicFUSION THEME for klaro 0.2
 	based on klaro v0.7.9 (https://github.com/kiprotect/klaro/)
 	White
 
 	Alex @ portalZINE.de	
 */
+/* FUNCTIONS */
 /* CONFIG START */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
 /* CONFIG END */
 .klaro * {
-  font-family: "Noto Sans", sans-serif !important; }
-
+  font-family: "Noto Sans", sans-serif !important;
+}
 .klaro .cm-btn {
   border-radius: 0.1em !important;
   padding: 6px 10px !important;
   text-transform: uppercase;
   font-weight: 600;
   transition: all 0.5s linear;
-  opacity: 0.7; }
-  .klaro .cm-btn:hover {
-    opacity: 1;
-    animation: pulse;
-    animation-duration: 1.0s; }
-
+  opacity: 0.7;
+}
+.klaro .cm-btn:hover {
+  opacity: 1;
+  animation: pulse;
+  animation-duration: 1s;
+}
 .klaro .cookie-notice:not(.cookie-modal-notice) {
   background: #fff;
-  border-radius: 0; }
-  .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body {
-    border-top: 4px solid red !important; }
-    .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body p {
-      color: #000; }
-    .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body strong {
-      color: #000;
-      font-weight: 600; }
-    .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline {
-      background: red; }
-      .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline::before {
-        font-family: "Font Awesome 5 Free" !important;
-        content: "";
-        text-align: center;
-        color: white;
-        margin-right: 0.3em; }
-    .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success {
-      background: green; }
-      .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success::before {
-        font-family: "Font Awesome 5 Free" !important;
-        content: "";
-        text-align: center;
-        color: white;
-        margin-right: 0.3em; }
-    .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok a {
-      color: #000;
-      text-transform: uppercase;
-      transition: all 0.5s linear;
-      opacity: 0.7; }
-      .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok a:hover {
-        opacity: 1; }
-
+  border-radius: 0;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body {
+  border-top: 4px solid red !important;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body p {
+  color: #000;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body strong {
+  color: #000;
+  font-weight: 600;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline {
+  background: red;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-decline::before {
+  font-family: "Font Awesome 5 Free" !important;
+  content: "\f3ed";
+  text-align: center;
+  color: white;
+  margin-right: 0.3em;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success {
+  background: green;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cm-btn-success::before {
+  font-family: "Font Awesome 5 Free" !important;
+  content: "\f3ed";
+  text-align: center;
+  color: white;
+  margin-right: 0.3em;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok a {
+  color: #000;
+  text-transform: uppercase;
+  transition: all 0.5s linear;
+  opacity: 0.7;
+}
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok a:hover {
+  opacity: 1;
+}
 .klaro .cookie-modal .cm-modal.cm-klaro {
   animation: fadeIn;
   animation-duration: 1s;
   border-top: 4px solid red !important;
   background: #fff;
   border-radius: 0px;
-  padding: 1.5em; }
-
+  padding: 1.5em;
+}
 .klaro .cookie-modal .hide {
-  cursor: pointer; }
-  .klaro .cookie-modal .hide svg {
-    stroke: red !important; }
-
+  cursor: pointer;
+}
+.klaro .cookie-modal .hide svg {
+  stroke: red !important;
+}
 .klaro .cookie-modal .cm-header {
   border-bottom: 1px solid #eee !important;
   background: #F2F2F2;
-  margin: 2em 0; }
-  .klaro .cookie-modal .cm-header:before {
-    content: "";
-    width: 80px;
-    height: 80px;
-    float: left;
-    background-image: url("https://dummyimage.com/80x80/ff2626/fff.png");
-    background-size: contain;
-    background-position: center;
-    margin-right: 1.5em;
-    margin-bottom: 2.5em; }
-  .klaro .cookie-modal .cm-header .title {
-    color: #000;
-    text-transform: uppercase; }
-    .klaro .cookie-modal .cm-header .title u {
-      text-decoration: none; }
-  .klaro .cookie-modal .cm-header p {
-    color: #000; }
-    .klaro .cookie-modal .cm-header p a {
-      color: #000;
-      text-decoration: underline; }
-
+  margin: 2em 0;
+}
+.klaro .cookie-modal .cm-header:before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  float: left;
+  background-image: url("https://dummyimage.com/80x80/ff2626/fff.png");
+  background-size: contain;
+  background-position: center;
+  margin-right: 1.5em;
+  margin-bottom: 2.5em;
+}
+.klaro .cookie-modal .cm-header .title {
+  color: #000;
+  text-transform: uppercase;
+}
+.klaro .cookie-modal .cm-header .title u {
+  text-decoration: none;
+}
+.klaro .cookie-modal .cm-header p {
+  color: #000;
+}
+.klaro .cookie-modal .cm-header p a {
+  color: #000;
+  text-decoration: underline;
+}
 .klaro .cookie-modal .cm-body .cm-purpose label {
-  color: #000; }
-
+  color: #000;
+}
 .klaro .cookie-modal .cm-body .cm-purpose .cm-list-description {
-  color: #000; }
-
+  color: #000;
+}
 .klaro .cookie-modal .cm-body .cm-purpose .cm-services a {
-  color: #000; }
-
+  color: #000;
+}
 .klaro .cookie-modal .cm-body .cm-purpose .cm-services .cm-service .purposes {
-  color: #000 !important; }
-
+  color: #000 !important;
+}
 .klaro .cookie-modal .cm-body .cm-purpose .cm-list-input.half-checked:checked + .cm-list-label .slider {
-  background: red; }
-
+  background: red;
+}
 .klaro .cookie-modal .cm-body .cm-purpose .cm-list-input.only-required + .cm-list-label .slider {
-  background: orange; }
-
+  background: orange;
+}
 .klaro .cookie-modal .cm-body .cm-purpose .cm-list-input.required:checked + .cm-list-label .slider {
-  background: green; }
-
+  background: green;
+}
 .klaro .cookie-modal .cm-body .cm-purpose .cm-list-input:checked + .cm-list-label .slider {
-  background: green; }
-
+  background: green;
+}
 .klaro .cookie-modal .cm-body .cm-purpose .cm-switch .slider {
-  box-shadow: none; }
-
+  box-shadow: none;
+}
 .klaro .cookie-modal .cm-body .cm-purpose.cm-toggle-all {
-  border-top: 1px solid #eee !important; }
-
+  border-top: 1px solid #eee !important;
+}
 .klaro .cookie-modal .cm-footer {
   margin-top: 1.5em;
-  border-top: 1px solid #eee !important; }
-  .klaro .cookie-modal .cm-footer .cn-btn {
-    transition: all 0.5s linear;
-    opacity: 0.7; }
-    .klaro .cookie-modal .cm-footer .cn-btn:hover {
-      opacity: 1; }
-  .klaro .cookie-modal .cm-footer .cn-decline {
-    background: red; }
-    .klaro .cookie-modal .cm-footer .cn-decline::before {
-      font-family: "Font Awesome 5 Free" !important;
-      content: "";
-      text-align: center;
-      color: white;
-      margin-right: 0.3em; }
-  .klaro .cookie-modal .cm-footer .cm-btn-accept {
-    background: orange; }
-    .klaro .cookie-modal .cm-footer .cm-btn-accept::before {
-      font-family: "Font Awesome 5 Free" !important;
-      content: "";
-      text-align: center;
-      color: white;
-      margin-right: 0.3em; }
-  .klaro .cookie-modal .cm-footer .cm-btn-accept-all {
-    background: green; }
-    .klaro .cookie-modal .cm-footer .cm-btn-accept-all::before {
-      font-family: "Font Awesome 5 Free" !important;
-      content: "";
-      text-align: center;
-      color: white;
-      margin-right: 0.3em; }
+  border-top: 1px solid #eee !important;
+}
+.klaro .cookie-modal .cm-footer .cn-btn {
+  transition: all 0.5s linear;
+  opacity: 0.7;
+}
+.klaro .cookie-modal .cm-footer .cn-btn:hover {
+  opacity: 1;
+}
+.klaro .cookie-modal .cm-footer .cn-decline {
+  background: red;
+}
+.klaro .cookie-modal .cm-footer .cn-decline::before {
+  font-family: "Font Awesome 5 Free" !important;
+  content: "\f3ed";
+  text-align: center;
+  color: white;
+  margin-right: 0.3em;
+}
+.klaro .cookie-modal .cm-footer .cm-btn-accept {
+  background: orange;
+}
+.klaro .cookie-modal .cm-footer .cm-btn-accept::before {
+  font-family: "Font Awesome 5 Free" !important;
+  content: "\f3ed";
+  text-align: center;
+  color: white;
+  margin-right: 0.3em;
+}
+.klaro .cookie-modal .cm-footer .cm-btn-accept-all {
+  background: green;
+}
+.klaro .cookie-modal .cm-footer .cm-btn-accept-all::before {
+  font-family: "Font Awesome 5 Free" !important;
+  content: "\f3ed";
+  text-align: center;
+  color: white;
+  margin-right: 0.3em;
+}
