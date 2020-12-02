@@ -99,6 +99,10 @@ $button-font-awesome-decline	: unicode("f3ed"); //'\f132';
 			p{
 				color: $text-dark;
 			}
+			a{
+				color: $text-dark!important;
+				text-decoration: underline!important;
+			}
 			strong{
 				color: $text-dark;
 				font-weight: 600;

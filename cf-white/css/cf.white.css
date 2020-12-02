@@ -36,6 +36,10 @@
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body p {
   color: #000;
 }
+.klaro .cookie-notice:not(.cookie-modal-notice) .cn-body a {
+  color: #000 !important;
+  text-decoration: underline !important;
+}
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body strong {
   color: #000;
   font-weight: 600;

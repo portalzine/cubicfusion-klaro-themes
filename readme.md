@@ -1,8 +1,8 @@
-# cubicFUSION Themes for !Klaro
+# cubicFUSION Themes for Klaro!
 > Themes for Klaro! - A Simple Consent Manager
 > [https://github.com/kiprotect/klaro][1]
 
-> _Dislaimer:_ !Klaro is a product of KIPROTECT. I am not affiliated with them in any way and provide these themes as they are.
+> _Dislaimer:_ Klaro! is a product of KIPROTECT. I am not affiliated with them in any way and provide these themes as they are.
 
 ## Current Themes
 ### White - cf-white 0.3 (for !klaro \>=0.79)
@@ -37,9 +37,7 @@ You can also checkout a test integration in the testdrive folder, which allows t
 ## Additional Info
 **Idea Behind / Philosophy:**  
 
-**cubicFUSION** is my personal playground. I planned to make many of my projects public, but time is limited and running customer projects always a priority.  
-
-I am still doing a big cleanup of my toolset and will see what I can actually share or reuse. Some of these might be useful, inspiration or just an archive of broken ideas  ;) 
+**cubicFUSION** is my personal playground. I am currently  doing a big cleanup of my toolset and will see what I can actually share or reuse. Some of these might be useful, inspiration or just an archive of broken ideas  ;) 
   
 [Alex @ portalZINE NMN - Development meets Creativity][6]
 
