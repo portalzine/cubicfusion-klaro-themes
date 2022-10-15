@@ -5,7 +5,7 @@
 > _Dislaimer:_ Klaro! is a product of KIPROTECT. I am not affiliated with them in any way and provide these themes as they are.
 
 ## Current Themes
-### White - cf-white 0.3 (for !klaro \>=0.79)
+### White - cf-white 0.3 (for !klaro \>=0.7.10)
 1. Simple clean white theme (still work in progress)
 2. SCSS variables for quick tweaks
 3. Optional logo
@@ -14,7 +14,7 @@
 
 ![][image-1]![][image-2]
 
-### Black & White - cf-black-white 0.2 (for !klaro \>=0.79)
+### Black & White - cf-black-white 0.2 (for !klaro \>=0.7.10)
 1. Simple clean black & white theme (still work in progress)
 2. SCSS variables for quick tweaks
 3. Optional logo

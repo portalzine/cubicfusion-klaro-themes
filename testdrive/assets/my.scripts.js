@@ -6,8 +6,11 @@ cm_event.initEvent('consentWindowOpen', true, true);
 
 document.addEventListener('consentWindowOpen', function (e) {
     console.log("consentWindowOpen")
+	
 }, false);
 	
+
+
 document.addEventListener("DOMContentLoaded", function(e) {        
 
         var cm_target 	= document.getElementById( "klaro" ),
